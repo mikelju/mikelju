@@ -45,6 +45,24 @@ I build production-oriented AI systems that connect LLMs with real-world knowled
 
 ---
 
+## 🧭 Current engineering focus
+
+<div align="center">
+
+| AI Systems | Backend & Infrastructure |
+|:---:|:---:|
+| RAG / Retrieval · **Core** | Python / FastAPI · **Core** |
+| Context Engineering · **Core** | PostgreSQL / pgvector · **Strong** |
+| Agentic AI · **Strong** | Docker / GCP · **Strong** |
+| Document Intelligence · **Strong** | API Integration · **Strong** |
+| LLM Evaluation · **Active** | n8n · **Strong** |
+
+<sub>Focus reflects current engineering work, not proficiency scores.</sub>
+
+</div>
+
+---
+
 ## 🛠 Tech stack
 
 <div align="center">
@@ -96,7 +114,7 @@ A fully anonymized, locally runnable replica of a production voice-ordering syst
 
 <div align="center">
 
-<img src="./voice-to-order-architecture.svg" alt="Voice-to-Order architecture" width="100%" />
+<img src="https://raw.githubusercontent.com/mikelju/mikelju/main/voice-to-order-architecture-v2.svg" alt="Voice-to-Order architecture" width="100%" />
 
 </div>
 
