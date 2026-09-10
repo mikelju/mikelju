@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="620" viewBox="0 0 1800 620">
+<rect width="1800" height="620" fill="#ffffff"/>
+<rect x="38" y="34" width="1724" height="552" rx="18" fill="#f7f9fb"/>
+<line x1="900" y1="74" x2="900" y2="540" stroke="#cbd5e1" stroke-width="2"/>
+<g font-family="JetBrains Mono, Consolas, monospace" fill="#1e293b">
+  <text x="82" y="92" font-size="25" font-weight="700">AI &amp; KNOWLEDGE SYSTEMS</text>
+  <text x="948" y="92" font-size="25" font-weight="700">ENGINEERING &amp; INFRASTRUCTURE</text>
+  <g font-size="22">
+    <text x="82" y="160">RAG / Retrieval</text>
+    <text x="82" y="246">Context Engineering</text>
+    <text x="82" y="332">Agentic AI</text>
+    <text x="82" y="418">Document Intelligence</text>
+    <text x="948" y="160">Python / FastAPI</text>
+    <text x="948" y="246">PostgreSQL / pgvector</text>
+    <text x="948" y="332">Docker / GCP</text>
+    <text x="948" y="418">API Integration / n8n</text>
+  </g>
+  <g font-size="22" font-weight="700">
+    <text x="806" y="160" text-anchor="end">Core</text>
+    <text x="806" y="246" text-anchor="end">Core</text>
+    <text x="806" y="332" text-anchor="end">Strong</text>
+    <text x="806" y="418" text-anchor="end">Strong</text>
+    <text x="1690" y="160" text-anchor="end">Core</text>
+    <text x="1690" y="246" text-anchor="end">Strong</text>
+    <text x="1690" y="332" text-anchor="end">Strong</text>
+    <text x="1690" y="418" text-anchor="end">Active</text>
+  </g>
+</g>
+<g fill="#1e293b">
+  <rect x="430" y="138" width="310" height="26"/><rect x="430" y="224" width="310" height="26"/><rect x="430" y="310" width="270" height="26"/><rect x="430" y="396" width="280" height="26"/>
+  <rect x="1298" y="138" width="310" height="26"/><rect x="1298" y="224" width="280" height="26"/><rect x="1298" y="310" width="280" height="26"/><rect x="1298" y="396" width="245" height="26"/>
+</g>
+<g fill="#e2e8f0" stroke="#d7dee8" stroke-width="1">
+  <rect x="740" y="138" width="76" height="26"/><rect x="740" y="224" width="76" height="26"/><rect x="700" y="310" width="116" height="26"/><rect x="710" y="396" width="106" height="26"/>
+  <rect x="1608" y="138" width="76" height="26"/><rect x="1578" y="224" width="106" height="26"/><rect x="1578" y="310" width="106" height="26"/><rect x="1543" y="396" width="141" height="26"/>
+</g>
+<text x="900" y="515" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="18" fill="#64748b">Current focus, not proficiency score</text>
+</svg>
