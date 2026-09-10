@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+<defs>
+  <linearGradient id="g1" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0" stop-color="#eef6ff"/><stop offset="1" stop-color="#f8fbff"/>
+  </linearGradient>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0 0 L10 5 L0 10 Z" fill="#64748b"/>
+  </marker>
+  <style>
+    .title{font:700 34px Arial,sans-serif;fill:#0f172a}
+    .sub{font:400 18px Arial,sans-serif;fill:#64748b}
+    .step{font:700 15px Arial,sans-serif;fill:#334155;letter-spacing:1px}
+    .main{font:700 18px Arial,sans-serif;fill:#0f172a}
+    .small{font:400 14px Arial,sans-serif;fill:#64748b}
+    .line{stroke:#64748b;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    .loop{stroke:#2563eb;stroke-width:2.5;fill:none;stroke-dasharray:8 7;marker-end:url(#arrow)}
+  </style>
+</defs>
+<rect width="1600" height="520" fill="white"/>
+<text x="60" y="54" class="title">Voice-to-Order</text>
+<text x="60" y="85" class="sub">Voice or text → confirmed order → every confirmation improves future retrieval</text>
+
+<!-- 1 INPUT -->
+<rect x="35" y="140" width="220" height="230" rx="18" fill="#f7fbff" stroke="#bfdbfe" stroke-width="2"/>
+<text x="60" y="172" class="step">01 · INPUT</text>
+<rect x="70" y="205" width="150" height="62" rx="14" fill="#dbeafe"/>
+<text x="145" y="243" text-anchor="middle" class="main">Voice / Text</text>
+<text x="145" y="292" text-anchor="middle" class="small">Natural-language request</text>
+
+<!-- 2 UNDERSTAND -->
+<rect x="285" y="140" width="250" height="230" rx="18" fill="#fbf9ff" stroke="#ddd6fe" stroke-width="2"/>
+<text x="310" y="172" class="step">02 · UNDERSTAND</text>
+<rect x="320" y="205" width="180" height="52" rx="12" fill="#ede9fe"/>
+<text x="410" y="237" text-anchor="middle" class="main">Speech-to-text</text>
+<rect x="320" y="274" width="180" height="52" rx="12" fill="#ddd6fe"/>
+<text x="410" y="306" text-anchor="middle" class="main">LLM extraction</text>
+
+<!-- 3 RETRIEVE -->
+<rect x="565" y="140" width="355" height="230" rx="18" fill="#f6fbff" stroke="#bfdbfe" stroke-width="2"/>
+<text x="590" y="172" class="step">03 · RETRIEVE</text>
+<rect x="600" y="205" width="135" height="58" rx="12" fill="#dbeafe"/>
+<text x="667" y="230" text-anchor="middle" class="main">Learned</text>
+<text x="667" y="250" text-anchor="middle" class="main">memory</text>
+<rect x="600" y="280" width="135" height="58" rx="12" fill="#dbeafe"/>
+<text x="667" y="315" text-anchor="middle" class="main">Catalogue</text>
+<rect x="775" y="242" width="105" height="60" rx="12" fill="#bfdbfe"/>
+<text x="827" y="278" text-anchor="middle" class="main">Rerank</text>
+<path d="M735 234 H760 V270 H775" class="line"/>
+<path d="M735 309 H760 V270 H775" class="line"/>
+
+<!-- 4 CONFIRM -->
+<rect x="950" y="140" width="230" height="230" rx="18" fill="#fffdf7" stroke="#fde68a" stroke-width="2"/>
+<text x="975" y="172" class="step">04 · CONFIRM</text>
+<rect x="985" y="225" width="160" height="68" rx="34" fill="#fef3c7"/>
+<text x="1065" y="253" text-anchor="middle" class="main">Human</text>
+<text x="1065" y="276" text-anchor="middle" class="main">validation</text>
+
+<!-- 5 ACTION -->
+<rect x="1210" y="140" width="170" height="230" rx="18" fill="#f4fffa" stroke="#a7f3d0" stroke-width="2"/>
+<text x="1235" y="172" class="step">05 · ACTION</text>
+<rect x="1235" y="225" width="120" height="68" rx="14" fill="#d1fae5"/>
+<text x="1295" y="253" text-anchor="middle" class="main">Business</text>
+<text x="1295" y="276" text-anchor="middle" class="main">order</text>
+
+<!-- 6 LEARN -->
+<rect x="1410" y="140" width="155" height="230" rx="18" fill="#fff8f8" stroke="#fecaca" stroke-width="2"/>
+<text x="1435" y="172" class="step">06 · LEARN</text>
+<rect x="1430" y="225" width="115" height="68" rx="14" fill="#fee2e2"/>
+<text x="1487" y="253" text-anchor="middle" class="main">Confirmed</text>
+<text x="1487" y="276" text-anchor="middle" class="main">order →</text>
+<text x="1487" y="298" text-anchor="middle" class="main">memory</text>
+
+<!-- main flow -->
+<path d="M255 255 H285" class="line"/>
+<path d="M535 255 H565" class="line"/>
+<path d="M920 255 H950" class="line"/>
+<path d="M1180 255 H1210" class="line"/>
+<path d="M1380 255 H1410" class="line"/>
+
+<!-- feedback -->
+<path d="M1488 350 C1488 445 860 455 667 350" class="loop"/>
+<text x="1080" y="445" text-anchor="middle" class="small">Confirmed orders feed the learned memory for better future matches</text>
+</svg>
