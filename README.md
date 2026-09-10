@@ -50,7 +50,7 @@ I build production-oriented AI systems that connect LLMs with real-world knowled
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/mikelju/mikelju/main/current-engineering-focus-v2.svg" alt="Current engineering focus" width="100%" />
+<img src="https://raw.githubusercontent.com/mikelju/mikelju/main/current-engineering-focus-v3.svg" alt="Current engineering focus" width="100%" />
 
 </div>
 
