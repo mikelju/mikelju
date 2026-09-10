@@ -26,18 +26,22 @@ I build production-oriented AI systems that connect LLMs with real-world knowled
 
 ## ⚡ What I build
 
+<div align="center">
+
 | 🧠 LLM Systems | 🤖 Agentic Systems |
-|---|---|
+|:---:|:---:|
 | RAG & retrieval | Routing & tool use |
 | Context selection | Validation & HITL |
 | Structured outputs | API orchestration |
 | Document intelligence | Workflow automation |
 
 | ⚙️ Backend & Systems | 📐 Engineering |
-|---|---|
+|:---:|:---:|
 | Python & FastAPI | Evaluation |
 | PostgreSQL & pgvector | Reliability & traceability |
 | Docker & GCP | Cost & latency |
+
+</div>
 
 ---
 
@@ -45,19 +49,26 @@ I build production-oriented AI systems that connect LLMs with real-world knowled
 
 <div align="center">
 
+### Core
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Supabase](https://img.shields.io/badge/Supabase-181818?style=flat-square&logo=supabase&logoColor=3ECF8E)
 
-![RAG](https://img.shields.io/badge/RAG-Context%20Systems-6B7280?style=flat-square)
-![Information Retrieval](https://img.shields.io/badge/Information%20Retrieval-Search-6B7280?style=flat-square)
-![LLM Evaluation](https://img.shields.io/badge/LLM%20Evaluation-Evals-6B7280?style=flat-square)
-![AI Agents](https://img.shields.io/badge/AI%20Agents-Agentic%20AI-6B7280?style=flat-square)
+### AI / Retrieval
+
+![RAG](https://img.shields.io/badge/RAG-0B7285?style=flat-square)
+![Information Retrieval](https://img.shields.io/badge/Information%20Retrieval-1971C2?style=flat-square)
+![Context Engineering](https://img.shields.io/badge/Context%20Engineering-7048E8?style=flat-square)
+![LLM Evaluation](https://img.shields.io/badge/LLM%20Evaluation-9C36B5?style=flat-square)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-D9480F?style=flat-square)
+![Agentic AI](https://img.shields.io/badge/Agentic%20AI-E8590C?style=flat-square)
+![Document Intelligence](https://img.shields.io/badge/Document%20Intelligence-2B8A3E?style=flat-square)
 
 </div>
 
@@ -79,22 +90,11 @@ Sanitized artifacts, system traces, technical decisions, trade-offs and runnable
 
 ### 🎙️ [Voice-to-Order](https://github.com/mikelju/voice-to-order)
 
-**FastAPI · PostgreSQL · pgvector · Docker · React · Python · LLMs**
+**FastAPI · PostgreSQL · pgvector · Docker · Python · LLMs**
 
 A fully anonymized, locally runnable replica of a production voice-ordering system.
 
-```text
-Voice / Text
-     │
-     ▼
-Speech-to-Text → LLM extraction → Learned memory → Catalogue retrieval
-                                      │
-                                      ▼
-                               Human validation
-                                      │
-                                      ▼
-                               Business action
-```
+Voice/text input is transformed into structured orders, matched against a ~31k-row catalogue and learned reference memory, reviewed by a human and delivered through business-process integrations.
 
 The system combines a large product catalogue with **learned reference memory built from previously confirmed orders**, improving recognition of customer-specific terminology, abbreviations and informal descriptions.
 
@@ -111,32 +111,6 @@ The project compares retrieval strategies under a fixed context budget and is bu
 ---
 
 ## 🧩 How I think about AI systems
-
-```text
-                USER REQUEST
-                     │
-                     ▼
-              ┌─────────────┐
-              │   ROUTING   │
-              └──────┬──────┘
-                     │
-          ┌──────────┴──────────┐
-          ▼                     ▼
-     RETRIEVAL                TOOLS
-          │                     │
-          └──────────┬──────────┘
-                     ▼
-            CONTEXT SELECTION
-                     │
-                     ▼
-                    LLM
-                     │
-                     ▼
-             VALIDATION / HITL
-                     │
-                     ▼
-                  ACTION
-```
 
 **Models are only one part of the system.**
 
@@ -165,7 +139,17 @@ This combination gives me a practical perspective across **research, software, d
 
 ## 🌱 Currently exploring
 
-`RAG` · `Information Retrieval` · `Context Engineering` · `Agentic AI` · `Document Intelligence` · `LLM Evaluation` · `Agent Tooling`
+<div align="center">
+
+![RAG](https://img.shields.io/badge/RAG-0B7285?style=flat-square)
+![Information Retrieval](https://img.shields.io/badge/Information%20Retrieval-1971C2?style=flat-square)
+![Context Engineering](https://img.shields.io/badge/Context%20Engineering-7048E8?style=flat-square)
+![Agentic AI](https://img.shields.io/badge/Agentic%20AI-E8590C?style=flat-square)
+![Document Intelligence](https://img.shields.io/badge/Document%20Intelligence-2B8A3E?style=flat-square)
+![LLM Evaluation](https://img.shields.io/badge/LLM%20Evaluation-9C36B5?style=flat-square)
+![Agent Tooling](https://img.shields.io/badge/Agent%20Tooling-495057?style=flat-square)
+
+</div>
 
 ---
 
