@@ -35,22 +35,11 @@ I build production-oriented AI systems that connect LLMs with real-world knowled
 | Structured outputs | API orchestration |
 | Document intelligence | Workflow automation |
 
-| 🔍 Retrieval & Knowledge | ⚙️ Systems Engineering |
+| ⚙️ Backend & Systems | 📐 Engineering |
 |:---:|:---:|
-| Semantic search | Python & FastAPI |
-| Metadata-first retrieval | PostgreSQL & pgvector |
-| Multimodal retrieval | Docker & GCP |
-| Evaluation & grounding | API integration |
-
-</div>
-
----
-
-## 🧭 Current engineering focus
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/mikelju/mikelju/main/current-engineering-focus-v4.svg" alt="Current engineering focus" width="100%" />
+| Python & FastAPI | Evaluation |
+| PostgreSQL & pgvector | Reliability & traceability |
+| Docker & GCP | Cost & latency |
 
 </div>
 
@@ -107,7 +96,7 @@ A fully anonymized, locally runnable replica of a production voice-ordering syst
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/mikelju/mikelju/main/voice-to-order-architecture-clean.svg" alt="Voice-to-Order architecture" width="100%" />
+<img src="https://raw.githubusercontent.com/mikelju/voice-to-order/main/docs/voice-to-order-architecture.svg" alt="Voice-to-Order architecture" width="100%" />
 
 </div>
 
