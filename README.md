@@ -94,7 +94,11 @@ Sanitized artifacts, system traces, technical decisions, trade-offs and runnable
 
 A fully anonymized, locally runnable replica of a production voice-ordering system.
 
-Voice/text input is transformed into structured orders, matched against a ~31k-row catalogue and learned reference memory, reviewed by a human and delivered through business-process integrations.
+<div align="center">
+
+<img src="./voice-to-order-architecture.svg" alt="Voice-to-Order architecture" width="100%" />
+
+</div>
 
 The system combines a large product catalogue with **learned reference memory built from previously confirmed orders**, improving recognition of customer-specific terminology, abbreviations and informal descriptions.
 
