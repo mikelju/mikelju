@@ -35,11 +35,12 @@ I build production-oriented AI systems that connect LLMs with real-world knowled
 | Structured outputs | API orchestration |
 | Document intelligence | Workflow automation |
 
-| ⚙️ Backend & Systems | 📐 Engineering |
+| 🔍 Retrieval & Knowledge | ⚙️ Systems Engineering |
 |:---:|:---:|
-| Python & FastAPI | Evaluation |
-| PostgreSQL & pgvector | Reliability & traceability |
-| Docker & GCP | Cost & latency |
+| Semantic search | Python & FastAPI |
+| Metadata-first retrieval | PostgreSQL & pgvector |
+| Multimodal retrieval | Docker & GCP |
+| Evaluation & grounding | API integration |
 
 </div>
 
@@ -49,15 +50,7 @@ I build production-oriented AI systems that connect LLMs with real-world knowled
 
 <div align="center">
 
-| AI Systems | Backend & Infrastructure |
-|:---:|:---:|
-| RAG / Retrieval · **Core** | Python / FastAPI · **Core** |
-| Context Engineering · **Core** | PostgreSQL / pgvector · **Strong** |
-| Agentic AI · **Strong** | Docker / GCP · **Strong** |
-| Document Intelligence · **Strong** | API Integration · **Strong** |
-| LLM Evaluation · **Active** | n8n · **Strong** |
-
-<sub>Focus reflects current engineering work, not proficiency scores.</sub>
+<img src="https://raw.githubusercontent.com/mikelju/mikelju/main/current-engineering-focus.svg" alt="Current engineering focus" width="100%" />
 
 </div>
 
@@ -114,7 +107,7 @@ A fully anonymized, locally runnable replica of a production voice-ordering syst
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/mikelju/mikelju/main/voice-to-order-architecture-clean.svg" alt="Voice-to-Order architecture" width="100%" />
+<img src="https://raw.githubusercontent.com/mikelju/mikelju/main/voice-to-order-architecture.jpg" alt="Voice-to-Order architecture" width="100%" />
 
 </div>
 
