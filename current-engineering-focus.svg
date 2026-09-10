@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 0 1600 620">
+<rect width="1600" height="620" fill="#ffffff"/>
+<style>
+.title{font:700 32px 'Courier New',monospace;fill:#1e2d43}.sub{font:400 17px 'Courier New',monospace;fill:#60748d}.head{font:700 18px 'Courier New',monospace;fill:#52657c}.label{font:400 18px 'Courier New',monospace;fill:#1e2d43}.state{font:400 18px 'Courier New',monospace;fill:#1e2d43}.bar{fill:#1e2d43}.empty{fill:url(#dots)}
+</style>
+<defs>
+<pattern id="dots" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="0.8" fill="#c9d3df"/></pattern>
+</defs>
+<rect x="55" y="35" width="1490" height="5" fill="#d5dde6"/>
+<text x="55" y="92" class="title">Current Engineering Focus</text>
+<text x="55" y="122" class="sub">Areas I’m focusing on right now. (Not a score, just current focus)</text>
+<line x1="55" y1="145" x2="1545" y2="145" stroke="#d5dde6" stroke-width="2"/>
+<rect x="55" y="170" width="1490" height="360" fill="#f7f9fb"/>
+<line x1="800" y1="195" x2="800" y2="505" stroke="#cbd5df" stroke-width="2"/>
+
+<text x="90" y="210" class="head">AI &amp; KNOWLEDGE SYSTEMS</text>
+<text x="840" y="210" class="head">ENGINEERING &amp; INFRASTRUCTURE</text>
+
+<!-- left -->
+<g>
+<text x="90" y="260" class="label">RAG / Retrieval</text><rect x="390" y="238" width="310" height="28" class="empty" rx="2"/><rect x="390" y="238" width="280" height="28" class="bar" rx="2"/><text x="735" y="260" class="state">Core</text>
+<text x="90" y="315" class="label">Context Engineering</text><rect x="390" y="293" width="310" height="28" class="empty" rx="2"/><rect x="390" y="293" width="280" height="28" class="bar" rx="2"/><text x="735" y="315" class="state">Core</text>
+<text x="90" y="370" class="label">Agentic AI</text><rect x="390" y="348" width="310" height="28" class="empty" rx="2"/><rect x="390" y="348" width="245" height="28" class="bar" rx="2"/><text x="735" y="370" class="state">Strong</text>
+<text x="90" y="425" class="label">Document Intelligence</text><rect x="390" y="403" width="310" height="28" class="empty" rx="2"/><rect x="390" y="403" width="270" height="28" class="bar" rx="2"/><text x="735" y="425" class="state">Strong</text>
+<text x="90" y="480" class="label">LLM Evaluation</text><rect x="390" y="458" width="310" height="28" class="empty" rx="2"/><rect x="390" y="458" width="205" height="28" class="bar" rx="2"/><text x="735" y="480" class="state">Active</text>
+</g>
+
+<!-- right -->
+<g>
+<text x="840" y="260" class="label">Python / FastAPI</text><rect x="1170" y="238" width="310" height="28" class="empty" rx="2"/><rect x="1170" y="238" width="280" height="28" class="bar" rx="2"/><text x="1510" y="260" class="state" text-anchor="end">Core</text>
+<text x="840" y="315" class="label">PostgreSQL / pgvector</text><rect x="1170" y="293" width="310" height="28" class="empty" rx="2"/><rect x="1170" y="293" width="250" height="28" class="bar" rx="2"/><text x="1510" y="315" class="state" text-anchor="end">Strong</text>
+<text x="840" y="370" class="label">Docker / GCP</text><rect x="1170" y="348" width="310" height="28" class="empty" rx="2"/><rect x="1170" y="348" width="245" height="28" class="bar" rx="2"/><text x="1510" y="370" class="state" text-anchor="end">Strong</text>
+<text x="840" y="425" class="label">API Integration</text><rect x="1170" y="403" width="310" height="28" class="empty" rx="2"/><rect x="1170" y="403" width="265" height="28" class="bar" rx="2"/><text x="1510" y="425" class="state" text-anchor="end">Strong</text>
+<text x="840" y="480" class="label">n8n / Automation</text><rect x="1170" y="458" width="310" height="28" class="empty" rx="2"/><rect x="1170" y="458" width="235" height="28" class="bar" rx="2"/><text x="1510" y="480" class="state" text-anchor="end">Active</text>
+</g>
+<rect x="55" y="565" width="1490" height="5" fill="#d5dde6"/>
+</svg>
