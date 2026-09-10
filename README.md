@@ -45,6 +45,24 @@ I build production-oriented AI systems that connect LLMs with real-world knowled
 
 ---
 
+## 🧭 Current engineering focus
+
+<div align="center">
+
+| 🧠 AI & Knowledge Systems | ⚙️ Engineering & Infrastructure |
+|:---:|:---:|
+| RAG / Retrieval · **Core** | Python / FastAPI · **Core** |
+| Context Engineering · **Core** | PostgreSQL / pgvector · **Strong** |
+| Agentic AI · **Strong** | Docker / GCP · **Strong** |
+| Document Intelligence · **Strong** | API Integration · **Strong** |
+| LLM Evaluation · **Active** | n8n / Automation · **Active** |
+
+<sub>Current focus, not a proficiency score.</sub>
+
+</div>
+
+---
+
 ## 🛠 Tech stack
 
 <div align="center">
