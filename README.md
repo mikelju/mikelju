@@ -114,7 +114,7 @@ A fully anonymized, locally runnable replica of a production voice-ordering syst
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/mikelju/mikelju/main/voice-to-order-architecture.jpg" alt="Voice-to-Order architecture" width="100%" />
+<img src="https://raw.githubusercontent.com/mikelju/mikelju/main/voice-to-order-architecture-clean.svg" alt="Voice-to-Order architecture" width="100%" />
 
 </div>
 
